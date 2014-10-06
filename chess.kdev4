@@ -1,0 +1,4 @@
+[Project]
+Name=chess
+Manager=KDevCMakeManager
+VersionControl=kdevgit
