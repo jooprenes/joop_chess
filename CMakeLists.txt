@@ -4,7 +4,7 @@ find_package(Qt4 REQUIRED)
 
 include_directories(${QT_INCLUDES} ${CMAKE_CURRENT_BINARY_DIR})
 
-set(chess_SRCS chess.cpp main.cpp)
+set(chess_SRCS position.cpp chess.cpp main.cpp)
 qt4_automoc(${chess_SRCS})
 add_executable(chess ${chess_SRCS})
 target_link_libraries(chess ${QT_QTCORE_LIBRARY} ${QT_QTGUI_LIBRARY})
